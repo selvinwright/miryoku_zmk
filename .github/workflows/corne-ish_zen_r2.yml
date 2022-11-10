@@ -9,6 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["corneish_zen_v2_left","corneish_zen_v2_right"]'
-      alphas: '["QWERTY_NEUE"]'
-      nav: '["invertedT_neue"]'
-      layers: '["neue"]'
+      alphas: '["QWERTY"]'
+      nav: '["invertedT"]'
