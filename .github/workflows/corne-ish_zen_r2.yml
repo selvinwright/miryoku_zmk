@@ -10,4 +10,3 @@ jobs:
     with:
       board: '["corneish_zen_v2_left","corneish_zen_v2_right"]'
       custom_config: '["#define NEUEZIEL_ALPHAS_QWERTY","#define NEUEZIEL_NAV_INVERTEDT","#define NEUEZIEL_SYM"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY_HIDE_MOMENTARY_LAYERS=y"]'
