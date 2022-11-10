@@ -273,9 +273,9 @@ U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define NEUEZIEL_ALTERNATIVES_NAV_INVERTEDT \
-U_BOOT,            &u_to_U_TAP,       &kp LA(TAB),       LG(ESC),           LG(LSHFT),         &kp INS,           &kp LS(LA(LEFT)),  &kp UP,            &kp LS(LA(RIGHT)), &kp PG_UP,         \
+U_BOOT,            &u_to_U_TAP,       &kp LA(TAB),       &kp LG(ESC),       &kp LG(LSHFT),     &kp INS,           &kp LS(LA(LEFT)),  &kp UP,            &kp LS(LA(RIGHT)), &kp PG_UP,         \
 &sk LCTRL,         &sk LALT,          &sk LGUI,          &sk LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp PG_DN,         \
-U_NA,              &kp RALT,          LA(LG(LEFT)),      LA(LG(F)),         LA(LG(RIGHT)),     U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+U_NA,              &kp RALT,          &kp LA(LG(LEFT)),  &kp LA(LG(F)),     &kp LA(LG(RIGHT)), U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp BSPC,          &kp RET,           &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_VI \
