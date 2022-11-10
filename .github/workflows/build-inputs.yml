@@ -26,6 +26,7 @@ on:
         - "Dvorak"
         - "Halmak"
         - "QWERTY"
+        - "QWERTY_NEUE"
         - "QWERTZ"
         - "Workman"
       nav:
@@ -36,6 +37,7 @@ on:
         options:
         - "default"
         - "invertedT"
+        - "invertedT_neue"
         - "vi"
       clipboard:
         description: 'clipboard'
@@ -55,6 +57,7 @@ on:
         options:
         - "default"
         - "flip"
+        - "neue"
       mapping:
         description: 'mapping'
         required: false
