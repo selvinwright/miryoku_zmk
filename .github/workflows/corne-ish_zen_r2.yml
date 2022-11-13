@@ -9,3 +9,4 @@ jobs:
     secrets: inherit
     with:
       board: '["corneish_zen_v2_left","corneish_zen_v2_right"]'
+      branches: '["caksoylar/zmk/caksoylar/zen-v2"]'
