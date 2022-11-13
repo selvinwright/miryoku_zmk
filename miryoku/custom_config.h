@@ -9,7 +9,7 @@ U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, TAB),  U_LT(U_NAV, SPC),  U_LT(U_SYM, BSPC), U_LT(U_NUM, RET),  U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NAV \
-U_BOOT,            &u_to_U_TAP,       &kp LA(TAB),       &kp LG(ESC),       &kp LG(LSHFT),     &kp INS,           &kp LS(LA(LEFT)),  &kp UP,            &kp LS(LA(RIGHT)), &kp PG_UP,         \
+U_BOOT,            &u_to_U_TAP,       &kt LA(TAB),       &kp LG(ESC),       &kp LG(LSHFT),     &kp INS,           &kp LS(LA(LEFT)),  &kp UP,            &kp LS(LA(RIGHT)), &kp PG_UP,         \
 &sk LCTRL,         &sk LALT,          &sk LGUI,          &sk LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp PG_DN,         \
 U_NA,              &kp RALT,          &kp LA(LG(LEFT)),  &kp LA(LG(F)),     &kp LA(LG(RIGHT)), U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp BSPC,          &kp RET,           &kp DEL,           U_NP,              U_NP
