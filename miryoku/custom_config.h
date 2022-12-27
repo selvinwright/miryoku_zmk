@@ -11,7 +11,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, TAB),U_LT(U_NUM, ESC),  U_LT
 #define MIRYOKU_LAYER_NAV \
 &kp LG(LS(RBRC)),  &kp LG(LS(RBRC)),  &kp LG(TAB),       &kp LG(ESC),       &kp LG(LSHFT),     &kp TAB,           &kp LS(LA(LEFT)),  &kp UP,            &kp LS(LA(RIGHT)), &kp PG_UP,         \
 &sk LCTRL,         &sk LALT,          &sk LGUI,          &sk LSHFT,         &kp LA(LSHFT),     &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp PG_DN,         \
-U_NA,              &kp LA(LG(LEFT)),  &kp LA(LG(F)),     &kp LA(LG(RIGHT)), U_NA               U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+U_NA,              &kp LA(LG(LEFT)),  &kp LA(LG(F)),     &kp LA(LG(RIGHT)), U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp BSPC,          &kp RET,           &u_caps_word,      U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
