@@ -9,14 +9,14 @@ U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, TAB),U_LT(U_NUM, ESC),  U_LT(U_NAV, SPC),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, ESC),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NAV \
-&kp LG(ESC),       &kp LA(LG(LEFT)),  &kp LA(LG(F)),     &kp LA(LG(RIGHT)), &kp LG(LSHFT),     &kﬁp TAB,          &kp LS(LA(LEFT)),  &kp UP,            &kp LS(LA(RIGHT)), &kp C_VOL_UP,         \
+&kp LG(ESC),       &kp LA(LG(LEFT)),  &kp LA(LG(F)),     &kp LA(LG(RIGHT)), &kp LG(LSHFT),     &kp TAB,           &kp LS(LA(LEFT)),  &kp UP,            &kp LS(LA(RIGHT)), &kp C_VOL_UP,         \
 &sk LCTRL,         &sk LALT,          &sk LGUI,          &sk LSHFT,         &kp LA(LSHFT),     &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp C_VOL_DN,         \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp BSPC,          &kp RET,           U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp ASTRK,         &kp LBKT,          &kp LBRC,          &kp LPAR,          &kp COLON,         &kp PIPE,          &kp RPAR,          &kp RBRC,          &kp RBKT,          &kp CRRT,          \
-&kp MINUS,         &kp EXCL,          &kp EQUAL,         &kp UNDER,         &kp SEMI,          &kp AMPS,          &kp HASH,          &kp DLLR,          &kp PRCNT,         &sk GRAVE,         \
+&kp MINUS,         &kp EXCL,          &kp EQUAL,         &kp UNDER,         &kp SEMI,          &kp AMPS,          &kp HASH,          &kp DLLR,          &kp PRCNT,         &kp GRAVE,         \
 &kp PLUS,          &kp AMPS,          &kp AT,            &kp HASH,          &kp DLLR,          U_NA,              U_NA,              &kp LT,            &kp GT,            U_NA,              \
 U_NP,              U_NP,              &kp ESC,           &kp TAB,           &kp SPC,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
