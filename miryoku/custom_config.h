@@ -12,7 +12,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, TAB),U_LT(U_NUM, ESC),  U_LT
 &kp LG(ESC),       &kp LA(LG(LEFT)),  &kp LA(LG(F)),     &kp LA(LG(RIGHT)), &kp LG(LSHFT),     &kp TAB,           &kp LS(LA(LEFT)),  &kp UP,            &kp LS(LA(RIGHT)), &kp C_VOL_UP,         \
 &sk LCTRL,         &sk LALT,          &sk LGUI,          &sk LSHFT,         &kp LA(LSHFT),     &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp C_VOL_DN,         \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp BSPC,          &kp RET,           U_NP,              U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp ASTRK,         &kp LBKT,          &kp LBRC,          &kp LPAR,          &kp COLON,         &kp PIPE,          &kp RPAR,          &kp RBRC,          &kp RBKT,          &kp CRRT,          \
@@ -21,7 +21,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 U_NP,              U_NP,              &kp ESC,           &kp TAB,           &kp SPC,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
-&bt BT_CLR,        &bt BT_SEL 0,      &bt BT_SEL 1,      &bt BT_SEL 2,      &bt BT_SEL 3,      &kp ASTRK,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
+U_NA,              &u_bt_sel_0,       &u_bt_sel_1,      &u_bt_sel_2,        &u_bt_sel_3,       &kp ASTRK,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
 &sk LCTRL,         &sk LALT,          &sk LGUI,          &sk LSHFT,         &sk LG(LS),        &kp MINUS,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp BSLH,          \
-U_NP,              U_NP,              U_NP,              U_NP,              &sk LC(LS),        &kp PLUS,          &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp GRAVE,         \
+U_NA,              U_NA,              U_NA,              U_NA,              &sk LC(LS),        &kp PLUS,          &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp GRAVE,         \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp EQUAL,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
